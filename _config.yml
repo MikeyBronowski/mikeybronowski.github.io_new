@@ -30,3 +30,15 @@ analytics:
   google:
     tracking_id: "UA-168247722-1"
     anonymize_ip: false # default
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: Europe/London    
+
+include:
+  - _pages
